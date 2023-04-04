@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+//     استخدمنا  scanner لاخذ من مدخل
+        Scanner value = new Scanner(System.in);
+        System.out.println("Enter number:");
+// متغير عددي
+        int num = value.nextInt();
+//عندما قيمة تساوي 0
+        if (num == 0) {
+            System.out.println("0");
+            //  عند قيمة موجبة
+        } else if (num <= 1) {
+            System.out.println("postive number");
+//          عند قيمة سالبة
+        } else if (num >= -1) {
+            System.out.println("nagtive number");
+        } else {
+            // ادخال اي رقم
+            System.out.println("enter your namber");
+        }
+    }}
